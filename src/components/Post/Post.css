@@ -1,0 +1,122 @@
+.post__container {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+  }
+  
+  .post__top {
+    display: flex;
+    border-bottom: 1px solid #eff2f5;
+    padding: 15px;
+  }
+
+  .post__top > svg {
+      font-size: 30px;
+  }
+  
+  .post__top > form {
+    flex: 1;
+    display: flex;
+  }
+  
+  .post__top > form > input {
+    outline-width: 0;
+    border: none;
+    padding: 5px 20px;
+    margin: 0 10px;
+    border-radius: 999px;
+    background-color: #eff2f5;
+    width: 80%;
+    flex: 1;
+
+  }
+  
+  
+  .post__bottom {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .post__options {
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: gray;
+    margin: 5px;
+    width: 50%;
+    height: 50%;
+  }
+
+  .post__videoCamIcon{
+      color: green;
+  }
+  
+  .post__photolibraryicon{
+    color: green;
+}
+
+.post__smileIcon{
+    color: #e4e400;
+}
+  
+  .post__options > h3 {
+    font-size: 14px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .post__options:hover {
+    background-color: #eff2f5;
+    border-radius: 20px;
+  }
+  
+
+.post__Roommake{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    flex: 1;
+    position: relative;
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+}
+
+.post__videoaddIcon{
+    color: #ec009e;
+}
+.post__VideoAdd{
+    padding: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    margin: 5px;
+    width: 35%;
+    height: 20%;
+    border-radius: 20px;
+    border: 2px solid #d1cccc;
+
+    
+     
+
+}
+
+.post__VideoAdd > h3 {
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: #ae7ce7;
+}
+
+
+.post__VideoAdd:hover {
+    background-color: #eff2f5;
+    border-radius: 20px;
+  }

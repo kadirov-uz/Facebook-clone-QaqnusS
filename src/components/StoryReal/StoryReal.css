@@ -1,0 +1,11 @@
+.storyReal {
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+    margin-top: 100px;
+}
+  
+.storystoryRealreel::-webkit-scrollbar {
+    display: none;
+}
+  

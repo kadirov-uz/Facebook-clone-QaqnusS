@@ -1,0 +1,23 @@
+.watch{
+    width: 100%;
+    height: auto;
+}
+.BigWatchDiv{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+ margin-top: 60px;
+ position: relative;
+}
+.SaidbarWatch{
+    width: 25%;
+    height: 100vh;
+    position: fixed;
+    overflow-y: hidden;
+}
+.FeedWatch{
+    width: 75%;
+    height: 100vh;
+    margin-left: 25%;
+}

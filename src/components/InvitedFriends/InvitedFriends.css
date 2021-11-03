@@ -1,0 +1,13 @@
+.invitedFriends{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    width: 500px;
+    height: auto;
+    margin: 0 auto; 
+    left: 10%;
+
+}
